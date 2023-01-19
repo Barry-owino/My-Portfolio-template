@@ -45,6 +45,11 @@ body{
   color:#111;
 }
 
+.navbar-links ul li a:hover{
+  background: rgb(241, 217, 217);
+  border-radius: 8px;
+}
+
 .navbar .logo{
   border: 2px solid #111;
   border-radius: 8px;
@@ -52,6 +57,12 @@ body{
   margin:20px;
   font-size: 20px;
   cursor: pointer;
+}
+
+.navbar .logo:hover{
+  background:rgb(222, 203, 203);
+  color:#111;
+  border:2px solid #fff;
 }
 
 .banner{
@@ -69,9 +80,15 @@ body{
 
 .call-action a{
   text-decoration:none;
-  color:#fff;
-  background:#111;
+  color:#111;
   padding:10px;
   margin:20px;
+  border:2px solid #111;
   border-radius: 8px;
+}
+
+.call-action a:hover{
+  color:#111;
+  background:rgb(219, 204, 204);
+  border:2px solid #fff;
 }
