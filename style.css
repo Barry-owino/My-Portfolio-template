@@ -17,9 +17,9 @@ body{
 }
 
 .container .header{
-  height:30vh;
-  background: #fff;
-  border:2px solid #111;
+  height:45vh;
+  /*background: #fff;*/
+  /*border:2px solid #111;*/
 }
 
 .navbar{
@@ -27,6 +27,7 @@ body{
   align-items: center;
   justify-content: space-between;
   text-decoration: none;
+  cursor:pointer;
 }
 
 .navbar-links ul{
@@ -48,8 +49,9 @@ body{
   border: 2px solid #111;
   border-radius: 8px;
   padding:5px;
-  margin-top:20px;
+  margin:20px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .banner{
@@ -57,5 +59,19 @@ body{
   flex-direction: column;
   align-items:center;
   justify-content:space-between;
-  padding-top: 100px;
+  padding-top: 85px;
+  cursor: pointer;
+}
+
+.call-action {
+  margin-top:26px;
+}
+
+.call-action a{
+  text-decoration:none;
+  color:#fff;
+  background:#111;
+  padding:10px;
+  margin:20px;
+  border-radius: 8px;
 }
